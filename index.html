@@ -8,7 +8,8 @@
         function updateClock(){
             //現在時刻を取得
             var now = new Date();
-            var hours = now.getMinutes();
+            var hours = now.getHours()+
+            var minutes = now.getMinutes();
             var seconds = now.getSeconds();
 
             //1桁の場合は0を付ける
